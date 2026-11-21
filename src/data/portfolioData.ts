@@ -1,81 +1,133 @@
+
 /**
- * ╔══════════════════════════════════════════════════════════════╗
- * ║  THE ONLY FILE YOU NEED TO EDIT FOR TEXT CONTENT             ║
- * ║  (images live in /public – see README.md)                    ║
- * ╚══════════════════════════════════════════════════════════════╝
+ * KARTHIK V - PERSONAL PORTFOLIO
+ * Customised using the information in the supplied resume.
  */
 
 /* ───────────── 1. BASIC INFO ───────────── */
 export const SITE = {
-  name: 'Your Name', // shown in navbar, footer, hero, about
-  pageTitle: 'Your Name – Your Role', // browser tab title
-  role: 'Your Role', // footer subtitle
-  email: 'you@example.com',
-  // digits only, with country code, no + or spaces (e.g. 919876543210)
-  phone: '910000000000',
-  whatsappMessage: 'Hi, I visited your portfolio and would like to get in touch.',
+  name: 'Karthik V',
+  pageTitle: 'Karthik V – QA Analyst | Aspiring SDET',
+  role: 'Application Tester | Quality Assurance Analyst',
+  email: 'karthikvenkateshm21@gmail.com',
+  phone: '919360264950',
+  whatsappMessage: 'Hi Karthik, I visited your portfolio and would like to connect.',
   available: true,
 };
 
-/* ───────────── 2. HERO (top of page) ───────────── */
+/* ───────────── 2. HERO ───────────── */
 export const HERO = {
-  eyebrow: 'YOUR PROFESSION • YOUR SPECIALITY',
-  headline: 'YOUR NAME', // big text, use CAPS
-  roles: ['YOUR ROLE ONE', 'YOUR ROLE TWO'] as [string, string],
-  tagline: 'One sentence about what you do and the value you bring.',
+  eyebrow: 'QUALITY ASSURANCE • SOFTWARE TESTING',
+  headline: 'KARTHIK V',
+  roles: ['QA ANALYST', 'ASPIRING SDET'] as [string, string],
+  tagline:
+    'Quality Assurance professional with 2.5+ years of experience in software testing, API validation and backend testing, focused on building reliable software.',
   primaryButton: 'EXPLORE MY WORK',
-  secondaryButton: 'Get In Touch',
-  image: '/assets/hero-red-bg.jpg', // 1920x1080, subject on the RIGHT side
-  imageAlt: 'Portrait of Your Name',
-  imagePosition: '69% center', // CSS object-position fallback
+  secondaryButton: 'GET IN TOUCH',
+  image: '/assets/hero-red-bg.jpg',
+  imageAlt: 'Professional portrait of Karthik V',
+  imagePosition: '69% center',
 };
 
 /* ───────────── 3. LOADING SCREEN ───────────── */
 export const LOADER = {
-  statement: 'YOUR ONE LINE STATEMENT GOES RIGHT HERE',
-  redWords: ['STATEMENT', 'HERE'], // words highlighted in red
+  statement: 'QUALITY THROUGH TESTING. RELIABILITY THROUGH VALIDATION.',
+  redWords: ['TESTING', 'VALIDATION'],
 };
 
 /* ───────────── 4. ABOUT ───────────── */
 export const ABOUT = {
-  eyebrow: 'Your Role · Your Field · Your Strength',
-  portrait: '/media/profile.webp', // 4:5 portrait photo
-  portraitAlt: 'Portrait of Your Name',
-  portraitCaption: 'Your Title', // small red text under the name on the photo
+  eyebrow: 'QA ANALYST · SOFTWARE TESTING · QUALITY ENGINEERING',
+  portrait: '/media/profile.webp',
+  portraitAlt: 'Karthik V - Quality Assurance Analyst',
+  portraitCaption: 'QA ANALYST | ASPIRING SDET',
+
   paragraphs: [
-    'First paragraph: who you are and what you do, in one or two sentences.',
-    'Second paragraph: what you care about, how you work, or what you are looking for.',
+    'I am Karthik V, a Quality Assurance Analyst with 2.5+ years of experience at Tata Consultancy Services. My experience includes functional, regression, system, API and backend testing, along with SQL validation, XML verification and defect lifecycle management.',
+
+    'I have experience validating automated data-processing workflows across DEV, QA and UAT environments using Postman, SQL and JIRA. I also have a foundation in Java, Python and web development. Currently, I am developing my Playwright automation skills and working towards growing into an SDET / Automation Testing role.',
   ],
-  technologies: ['Skill One', 'Skill Two', 'Skill Three', 'Skill Four', 'Skill Five', 'Skill Six'],
-  focus: ['Focus Area One', 'Focus Area Two', 'Focus Area Three'],
+
+  technologies: [
+    'Java',
+    'Python',
+    'SQL',
+    'Postman',
+    'XML',
+    'JIRA',
+    'Playwright'
+  ],
+
+  focus: [
+    'Functional & Regression Testing',
+    'API & Backend Validation',
+    'Automation Testing',
+  ],
 };
 
-/* ───────────── 5. SOCIAL LINKS (footer) ───────────── */
+/* ───────────── 5. SOCIAL LINKS ───────────── */
 export const SOCIALS = [
-  { id: 'github', label: 'GitHub', href: 'https://github.com/your-username' },
-  { id: 'linkedin', label: 'LinkedIn', href: 'https://linkedin.com/in/your-username' },
+  {
+    id: 'github',
+    label: 'GitHub',
+    href: 'https://github.com/Karthikoffical',
+  },
+  {
+    id: 'linkedin',
+    label: 'LinkedIn',
+    href: 'https://www.linkedin.com/in/karthik-venkatesh-63382a201?utm_source=share_via&utm_content=profile&utm_medium=member_android',
+  },
 ] as const;
 
-/* ───────────── 6. TECHNICAL SKILLS (6 cards look best) ───────────── */
-export const SKILL_CARDS: { name: string; category: string; level: string }[] = [
-  { name: 'Skill One', category: 'Tool A · Tool B', level: 'Advanced' },
-  { name: 'Skill Two', category: 'Tool A · Tool B', level: 'Advanced' },
-  { name: 'Skill Three', category: 'Tool A · Tool B', level: 'Proficient' },
-  { name: 'Skill Four', category: 'Tool A · Tool B', level: 'Proficient' },
-  { name: 'Skill Five', category: 'Tool A · Tool B', level: 'Proficient' },
-  { name: 'Skill Six', category: 'Tool A · Tool B', level: 'Proficient' },
+/* ───────────── 6. TECHNICAL SKILLS ───────────── */
+export const SKILL_CARDS: {
+  name: string;
+  category: string;
+  level: string;
+}[] = [
+  {
+    name: 'Manual & Functional Testing',
+    category: 'Functional · Regression · System',
+    level: 'Experienced',
+  },
+  {
+    name: 'API Testing',
+    category: 'Postman · REST APIs · XML · JSON',
+    level: 'Experienced',
+  },
+  {
+    name: 'Database Testing',
+    category: 'SQL · Oracle DB · MS Access',
+    level: 'Proficient',
+  },
+  {
+    name: 'Programming',
+    category: 'Java · Python Basics · C#',
+    level: 'Foundational',
+  },
+  {
+    name: 'Backend Validation',
+    category: 'XML · SQL · Data Integrity',
+    level: 'Proficient',
+  },
+  {
+    name: 'Automation Learning',
+    category: 'Playwright · Test Automation',
+    level: 'Currently Learning',
+  },
 ];
 
-/* ───────────── 6b. TECH STACK STRIP (logos under the skills) ─────────────
- * Use names with a built-in logo: React, JavaScript, Python, FastAPI, PostgreSQL,
- * Supabase, SQLite, Three.js, GSAP. Any other name still shows as a lettered badge. */
-export const TECH_STACK: string[] = ['React', 'JavaScript', 'Python', 'PostgreSQL', 'Three.js', 'GSAP'];
+/* ───────────── 6b. TECH STACK ───────────── */
+export const TECH_STACK: string[] = [
+  'Java',
+  'JavaScript',
+  'Python',
+  'C#',
+  'Postman',
+  'SQL',
+];
 
-/* ───────────── 7. PROJECTS ─────────────
- * Thumbnails: put project-<n>-1.jpg, -2.jpg, -3.jpg in /public/assets/thumbnails/
- * (card cycles through 1-3). Set poster to the "-1.jpg" file.
- * Add liveUrl / repoUrl to show "View Live" / "View Code" buttons.
- * 6 or 9 projects fill the 3D grid best. */
+/* ───────────── 7. PROJECTS ───────────── */
 export interface Project {
   id: string;
   title: string;
@@ -93,85 +145,141 @@ export interface Project {
 }
 
 export const PORTFOLIO_PROJECTS: Project[] = [
+
   {
-    id: 'project-one',
+    id: 'expense-tracker',
     kind: 'software',
-    title: 'Project One',
-    subtitle: 'One-line subtitle',
-    category: 'Category One',
+    title: 'Personal Expense Tracker',
+    subtitle: 'Full-Stack Web Application',
+    category: 'Full Stack Development',
     poster: '/assets/thumbnails/project-1-1.jpg',
-    description: 'Two sentences about what this project does, who it is for and what you did.',
-    tags: ['Tag One', 'Tag Two', 'Tag Three'],
-    // liveUrl: 'https://example.com',
-    // repoUrl: 'https://github.com/your-username/project-one',
+
+    description:
+      'Developed and deployed a full-stack expense management application with secure authentication, expense and budget management, CRUD operations, filtering, search, pagination and dashboard insights. Implemented the application using JavaScript, Node.js, Express.js, MongoDB and REST APIs.',
+
+    tags: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'Bootstrap',
+      'Node.js',
+      'Express.js',
+      'MongoDB',
+      'REST API',
+      'Postman',
+      'Vercel',
+      'Render',
+    ],
   },
+
   {
-    id: 'project-two',
+    id: 'sign-language-detection',
     kind: 'software',
-    title: 'Project Two',
-    subtitle: 'One-line subtitle',
-    category: 'Category Two',
+    title: 'Sign Language Detection',
+    subtitle: 'Deep Learning Academic Project',
+    category: 'Machine Learning',
     poster: '/assets/thumbnails/project-2-1.jpg',
-    description: 'Two sentences about what this project does, who it is for and what you did.',
-    tags: ['Tag One', 'Tag Two', 'Tag Three'],
+
+    description:
+      'Contributed to an academic deep-learning project for sign language detection using SSD MobileNet FPN-Lite (640x640) in Jupyter Notebook. Worked on image collection and labelling, TensorFlow SSD model installation from TensorFlow Model Zoo, and model training and testing.',
+
+    tags: [
+      'Python',
+      'Deep Learning',
+      'TensorFlow',
+      'SSD MobileNet',
+      'Jupyter Notebook',
+      'Image Labelling',
+    ],
   },
+
   {
-    id: 'project-three',
+    id: 'carpooling',
     kind: 'software',
-    title: 'Project Three',
-    subtitle: 'One-line subtitle',
-    category: 'Category One',
+    title: 'CarPooling Application',
+    subtitle: 'Ride-Sharing Web Application',
+    category: 'Web Development',
     poster: '/assets/thumbnails/project-3-1.jpg',
-    description: 'Two sentences about what this project does, who it is for and what you did.',
-    tags: ['Tag One', 'Tag Two', 'Tag Three'],
+
+    description:
+      'Designed and developed a ride-sharing application using C# and .NET Framework with MS Access as the relational database. Implemented separate login modules for car owners to post rides and ride partners to search and book available rides, with CRUD operations and form validation.',
+
+    tags: [
+      'C#',
+      '.NET Framework',
+      'Visual Studio',
+      'MS Access',
+      'CRUD',
+      'Form Validation',
+    ],
   },
-  {
-    id: 'project-four',
-    kind: 'software',
-    title: 'Project Four',
-    subtitle: 'One-line subtitle',
-    category: 'Category Two',
-    poster: '/assets/thumbnails/project-4-1.jpg',
-    description: 'Two sentences about what this project does, who it is for and what you did.',
-    tags: ['Tag One', 'Tag Two', 'Tag Three'],
-  },
-  {
-    id: 'project-five',
-    kind: 'software',
-    title: 'Project Five',
-    subtitle: 'One-line subtitle',
-    category: 'Category One',
-    poster: '/assets/thumbnails/project-5-1.jpg',
-    description: 'Two sentences about what this project does, who it is for and what you did.',
-    tags: ['Tag One', 'Tag Two', 'Tag Three'],
-  },
-  {
-    id: 'project-six',
-    kind: 'software',
-    title: 'Project Six',
-    subtitle: 'One-line subtitle',
-    category: 'Category Two',
-    poster: '/assets/thumbnails/project-6-1.jpg',
-    description: 'Two sentences about what this project does, who it is for and what you did.',
-    tags: ['Tag One', 'Tag Two', 'Tag Three'],
-  },
+
 ];
 
-/* ───────────── 8. SERVICES & PRICING ───────────── */
+/* ───────────── 8. PROFESSIONAL FOCUS ─────────────
+ * Reusing the original template's services data structure.
+ * These are career focus areas, not paid freelance services.
+ */
 export const SERVICES_PRICING = [
-  { id: 'service-1', title: 'Service One', priceLabel: 'Starts from', price: '₹0,000', featured: true },
-  { id: 'service-2', title: 'Service Two', priceLabel: 'Starts from', price: '₹0,000', featured: false },
-  { id: 'service-3', title: 'Service Three', priceLabel: 'From – to', price: '₹0,000 – ₹0,000', featured: false },
-  { id: 'service-4', title: 'Service Four', priceLabel: 'From – to', price: '₹0,000 – ₹0,000', featured: false },
-  { id: 'service-5', title: 'Service Five', priceLabel: 'From – to', price: '₹0,000 – ₹0,000', featured: false },
+  {
+    id: 'service-1',
+    title: 'Functional & Regression Testing',
+    priceLabel: 'Focus Area',
+    price: 'Software Quality',
+    featured: true,
+  },
+  {
+    id: 'service-2',
+    title: 'API Testing & Validation',
+    priceLabel: 'Focus Area',
+    price: 'Postman · REST APIs',
+    featured: false,
+  },
+  {
+    id: 'service-3',
+    title: 'Database & Backend Testing',
+    priceLabel: 'Focus Area',
+    price: 'SQL · XML Validation',
+    featured: false,
+  },
+  {
+    id: 'service-4',
+    title: 'Defect Management',
+    priceLabel: 'Focus Area',
+    price: 'JIRA · RCA · STLC',
+    featured: false,
+  },
+  {
+    id: 'service-5',
+    title: 'Automation Upskilling',
+    priceLabel: 'Learning Focus',
+    price: 'Playwright',
+    featured: false,
+  },
 ] as const;
 
-/* ───────────── 9. HEADLINE NUMBERS (under hero) ───────────── */
+/* ───────────── 9. HEADLINE NUMBERS ───────────── */
 export const CLIENT_STATS = [
-  { id: 'stat-1', value: 10, suffix: '+', label: 'Stat One' },
-  { id: 'stat-2', value: 5, suffix: '+', label: 'Stat Two' },
-  { id: 'stat-3', value: 3, suffix: '+', label: 'Stat Three' },
+  {
+    id: 'stat-1',
+    value: 2.5,
+    suffix: '+',
+    label: 'Years Experience',
+  },
+  {
+    id: 'stat-2',
+    value: 3,
+    suffix: '',
+    label: 'Academic & Personal Projects',
+  },
+  {
+    id: 'stat-3',
+    value: 4,
+    suffix: '',
+    label: 'Certifications',
+  },
 ] as const;
 
-/* Derived – do not edit */
-export const WHATSAPP_URL = `https://wa.me/${SITE.phone}?text=${encodeURIComponent(SITE.whatsappMessage)}`;
+/* ───────────── DERIVED - DO NOT EDIT ───────────── */
+export const WHATSAPP_URL =
+  `https://wa.me/${SITE.phone}?text=${encodeURIComponent(SITE.whatsappMessage)}`;

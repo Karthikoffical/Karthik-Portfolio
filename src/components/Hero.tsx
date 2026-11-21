@@ -609,7 +609,7 @@ export const Hero: React.FC = () => {
               <span className="text-[#ff2a3b] font-bold uppercase text-[11px] sm:text-xs md:text-sm tracking-[0.25em]">
                 {HERO.eyebrow}
               </span>
-              <h1 className="text-white text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black tracking-tight leading-[0.88] uppercase drop-shadow-md">
+              <h1 className="text-white text-[clamp(2.25rem,6.5vw,6rem)] font-black tracking-tight leading-[0.88] uppercase drop-shadow-md whitespace-nowrap">
                 {HERO.headline}
               </h1>
               <div className="flex items-center gap-2 sm:gap-3 text-white font-extrabold text-sm sm:text-base md:text-lg lg:text-xl uppercase tracking-wider mt-0.5">
